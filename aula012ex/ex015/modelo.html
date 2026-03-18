@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Hora do Dia</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <form id="conteiner" method="get">
+                <label for="anonasc">Ano de Nascimento :
+                <input type="number" name="data" id="anonasc" >
+                </label>
+                <br>
+                <label for="sx">Sexo :</label>
+                <input type="radio" name="sx" id="masc">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sx" id="femi">
+                <label for="femi">Feminino</label>
+            <br>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </form>
+        <div id="resp">
+            Preencha os dados acima para ver o resultado! <br>
+            <img id="imagem" src="" alt="foto">
+        </div>
+    </section>
+    <footer>@CursoemVideo</footer>
+    <script src="script.js"></script>
+</body>
+</html>
