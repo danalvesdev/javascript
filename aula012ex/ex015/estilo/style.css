@@ -28,6 +28,7 @@ form#conteiner input{
 
 section div#resp{
     padding: 20px;
+    text-align: center;
 }
 
 img#imagem{
@@ -36,7 +37,6 @@ img#imagem{
     border-radius: 50%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    display: block;
     padding: 15px;
 }
 
