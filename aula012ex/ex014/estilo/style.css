@@ -15,6 +15,7 @@ header{
 
 section{
     width: 500px;
+    height: 300px;
     padding: 15px;
     margin: auto;
     border-radius: 10px;
@@ -23,6 +24,17 @@ section{
     font-size: 1.2em;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.829);
     text-align: center;
+}
+
+div#foto{
+    padding: 10px;
+}
+
+div#foto img{
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 footer{
