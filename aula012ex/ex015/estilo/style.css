@@ -19,25 +19,24 @@ section {
     border-radius: 10px;
     background-color: white;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.829);
-    text-align: left;
 }
 
-form#conteiner input{
+div#conteiner input{
     margin: 10px;
+    padding: 10px;
 }
 
-section div#resp{
-    padding: 20px;
-    text-align: center;
+img{
+    padding: 10px;
 }
 
-img#imagem{
-    margin: auto;
-    width: 150px;
+#imagem{
+    display: none;
+    width: 200px;
     border-radius: 50%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    padding: 15px;
+    margin: auto;
 }
 
 footer{
