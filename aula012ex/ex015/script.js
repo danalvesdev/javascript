@@ -2,7 +2,7 @@ function verificar(){
     var AnoNasc = Number(document.getElementById('anonasc').value)
     var AnoAtual = new Date().getFullYear()
     var idade = AnoAtual - AnoNasc
-    if(AnoNasc > AnoAtual){
+    if(AnoNasc.valueOf.length == 0 || AnoNasc > AnoAtual){
         alert('Digite um ano válido!')
         img.style.display = 'none'
     }
