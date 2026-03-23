@@ -1,12 +1,14 @@
 function calcula(){
-    var num1 = document.getElementById('num').value
+    var num1 = document.getElementById('num')
     var res = document.getElementById('res')
 
-    if(num1 == ""){
+    if(num1.value.length == 0){
         alert('Digite um número!')
-        return
-    }
+    }else{
+        var n = Number(num1.value)
+        res.innerHTML = ''
     for(var c = 1;c <= 10;c++){
-        res.innerText += `${num1} X ${c} = ${num1 * c} \n`
+        res.innerText += `${n}   x   ${c} = ${n*c} \n`
+        }
     }
 }
