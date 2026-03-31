@@ -1,5 +1,4 @@
 let num1 = 9;
-
 //Math.floor() - Arredonda para baixo
 //Math.ceil() - Arredonda para cima
 //Math.round() - Arredonda para o mais próximo
