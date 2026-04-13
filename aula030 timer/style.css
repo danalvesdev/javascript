@@ -12,6 +12,15 @@ section#conteiner{
     border-radius: 10px;
 }
 
+h1{
+    text-align: center;
+}
+
 p#relogio{
     font-size: 3em;
+    text-align: center;
+}
+
+p.botao{
+    text-align: center;
 }
