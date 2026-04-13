@@ -6,6 +6,7 @@ let timer
 function inicia(){
     parar()
     timer = setInterval(function (){
+    relogio.style.color = 'black'
     segundos++
         if(segundos == 60){
             segundos = 0
@@ -21,6 +22,7 @@ function inicia(){
 
 function parar(){
     clearInterval(timer);
+    relogio.style.color = 'red'
 }
 
 function limpar(){
