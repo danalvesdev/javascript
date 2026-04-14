@@ -7,8 +7,11 @@ botao.addEventListener('click', function(){
         alert('Adicione algo na sua lista!')
         return
     }
+
     mostrar.innerHTML += `<ul><li>${adicionar.value} <button onclick="apagar(this)">apagar</button></li></ul>` 
     localStorage.setItem('tarefas', mostrar.innerHTML)
+    adicionar.value = ''
+    adicionar.focus()
 });
 
 window.onload = function(){
