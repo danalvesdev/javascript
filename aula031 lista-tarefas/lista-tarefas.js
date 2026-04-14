@@ -9,7 +9,6 @@ botao.addEventListener('click', function(){
     }
     mostrar.innerHTML += `<ul><li>${adicionar.value} <button onclick="apagar(this)">apagar</button></li></ul>` 
     localStorage.setItem('tarefas', mostrar.innerHTML)
-    localStorage.getItem('tarefas')
 });
 
 window.onload = function(){
