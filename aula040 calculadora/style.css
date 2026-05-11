@@ -15,10 +15,16 @@ section#container{
 input{
     width: 400px;
     height: 50px;
-    margin: 5px 0px;
+    margin: 0px 0px;
+    font-size: 2.0em;
+    text-align: right;
 }
 
 button{
-    width: 80px;
+    width: 99px;
     padding: 10px;
+    font-size: 2.0em;
+    cursor: pointer;
+    background-color: rgba(236, 236, 236, 0.911);
+    border: none;
 }
