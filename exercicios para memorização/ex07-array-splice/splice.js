@@ -1,6 +1,6 @@
 const mostrar = document.getElementById('tarefa') // onde digita
 const adicionar = document.getElementById('MostrarTxt') // Botão de adicionar
-const ulDaLista = document.getElementById('ul')// onde vai mostrar oq eu adicionei
+const ulDaLista = document.getElementById('ul') // onde vai mostrar oq eu adicionei
 adicionar.addEventListener('click', () => {
     if(mostrar.value.length === 0){
         alert('Digite algo!')
@@ -11,4 +11,4 @@ adicionar.addEventListener('click', () => {
     ulDaLista.appendChild(CriarLista)
     mostrar.value = ''
     mostrar.focus()
-})
+});
